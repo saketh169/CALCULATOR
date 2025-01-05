@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: antiquewhite;
+}
+#calculator{
+    height:680px;
+    width:1300px;
+    border:9px solid rgb(14, 4, 4);
+    position: relative;
+    top:10px;
+    left:90px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:RGB(105, 105, 105);
+    padding-left:10px;
+    padding-right:10px;
+   
+}
+#title{
+    height:50px;
+    width:100%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top:20px;
+    text-decoration:underline;
+   
+}
+#box{
+    margin:20px;
+    height:570px;
+    width:97%;
+    border:8px solid #222021;
+    background-color: #999DA0;
+    
+}
+#ans{
+    width:97%;
+    height:120px;
+    border:6px solid black;
+    margin:10px;
+    padding-left:10px;
+    background-color: #D4D4D4;
+    font-size: 100px;
+    line-height:100px ;
+    
+}
+
+#value{
+   position:fixed;
+   right:150px;
+}
+
+.numbers{
+    
+    width:840px;
+    height:400px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap:0px;
+}
+
+#group{
+    display:flex;
+}
+#equalto{
+background-color:RGB(70, 130, 180) ;
+}
+#dot{
+background-color:RGB(70, 130, 180) ;
+}
+#zero{
+background-color:RGB(70, 130, 180) ;
+}
+
+.numbers div{
+    padding:10px;
+    height:100px;
+    width:173px;
+    border:6px solid rgb(50, 43, 43);
+    background-color:RGB(192, 192, 192);
+    text-align:center;
+    align-content: center;
+    font-size: 50px;
+
+
+}
+.numbers div:hover{
+opacity:0.5;
+
+}
+
+.ops{
+    height:400px;
+    width:450px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:0px;
+}
+.ops div{
+    height:180px;
+    width:128px;
+    border:8px solid rgb(13, 3, 3);
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    background-color: RGB(255, 165, 0);
+}
+.ops div:hover{
+    opacity:0.5;
+    }
+
